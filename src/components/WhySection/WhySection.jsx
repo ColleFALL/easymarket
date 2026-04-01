@@ -1,5 +1,5 @@
 import React from 'react'
-import phone from '../../assets/images/phone1.png'
+import phone from '../../assets/images/Phone1.png'
 
 const AVANTAGES = [
   { texte: 'Suivez vos ventes en temps réel' },

@@ -1,5 +1,5 @@
 import React from 'react'
-import phone      from '../../assets/images/Phone2.png'
+import phone      from '../../assets/images/phone2.png'
 // import googlePlay from '../../assets/images/icone-google play.jpeg'
 // import appStore   from '../../assets/images/icone-app store.jpeg'
 import googlePlay2 from '../../assets/images/icone-google_play2.png'

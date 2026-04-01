@@ -1,10 +1,10 @@
 import React from 'react'
-import logoOFII       from '../../assets/images/logo OFII.jpg'
-import logoVolkeno    from '../../assets/images/logo volkeno.jpg'
-import logoMVP        from '../../assets/images/logo lapp 221.jpg'
-import logoKPC        from '../../assets/images/logo kpc.jpg'
-import logoHub        from '../../assets/images/logo Impact HUB.jpg'
-import logoPitchPalab from '../../assets/images/logo pitch Palabre.jpg'
+import logoOFII       from '../../assets/images/logo-OFII.jpg'
+import logoVolkeno    from '../../assets/images/logo-volkeno.jpg'
+import logoMVP        from '../../assets/images/logo-lapp_221.jpg'
+import logoKPC        from '../../assets/images/logo-kpc.jpg'
+import logoHub        from '../../assets/images/logo-Impact_HUB.jpg'
+import logoPitchPalab from '../../assets/images/logo-pitch_Palabre.jpg'
 
 const PARTENAIRES = [
   { nom: 'OFII',             logo: logoOFII       },

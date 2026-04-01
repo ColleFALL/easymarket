@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
-import shop1 from '../../assets/images/image Kazamansa (1).jpg'
-import shop2 from '../../assets/images/image Kazamansa (2).jpg'
-import shop3 from '../../assets/images/image Kazamansa (3).jpg'
-import shop4 from '../../assets/images/image Kazamansa (4).jpg'
+import shop1 from '../../assets/images/image-Kazamansa1.jpg'
+import shop2 from '../../assets/images/image-Kazamansa2.jpg'
+import shop3 from '../../assets/images/image-Kazamansa3.jpg'
+import shop4 from '../../assets/images/image-Kazamansa4.jpg'
 
 const BOUTIQUES = [
   { nom: 'Grandkabir',   description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop1 },

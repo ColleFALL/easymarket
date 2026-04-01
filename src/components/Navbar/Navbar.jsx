@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../../assets/images/EasyMarket logo.png'
+import logo from '../../assets/images/EasyMarket_logo.png'
 
 // ============================================
 // DONNÉES — liens de navigation

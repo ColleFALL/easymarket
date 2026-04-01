@@ -1,7 +1,5 @@
 import React from 'react'
-import phone      from '../../assets/images/phone2.png'
-// import googlePlay from '../../assets/images/icone-google play.jpeg'
-// import appStore   from '../../assets/images/icone-app store.jpeg'
+import phone from '../../assets/images/phone2.png'
 import googlePlay2 from '../../assets/images/google_play2.jpg'
 
 function HeroSection() {
@@ -45,7 +43,7 @@ function HeroSection() {
             justifyContent: 'space-between',
             gap: '48px',
           }}
-         >
+        >
 
           {/* GAUCHE — texte + CTA */}
           <div
@@ -78,24 +76,25 @@ function HeroSection() {
             {/* BOUTONS */}
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
 
-              {/* Démo */}
+              {/* Bouton Démo */}
               
                 <a href="#"
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   backgroundColor: '#1F2937',
                   borderRadius: '999px',
-                  width:   '240px',
+                  width: '240px',
                   height: '56px',
                   padding: '0 28px',
                   color: 'white',
                   fontSize: '15px',
                   fontWeight: '600',
-                  text:  'center',
                   textDecoration: 'none',
                   display: 'inline-flex',
                   alignItems: 'center',
+                  justifyContent: 'center',
                   whiteSpace: 'nowrap',
+                  transition: 'opacity 0.2s',
                 }}
                 onMouseEnter={e => e.currentTarget.style.opacity = '0.9'}
                 onMouseLeave={e => e.currentTarget.style.opacity = '1'}
@@ -103,14 +102,14 @@ function HeroSection() {
                 Demander une démo
               </a>
 
-              {/* Commencer */}
+              {/* Bouton Commencer */}
               
                 <a href="#"
                 style={{
                   fontFamily: 'Inter, sans-serif',
                   backgroundColor: 'transparent',
                   borderRadius: '999px',
-                  width:  '250px',
+                  width: '250px',
                   height: '56px',
                   padding: '0 28px',
                   color: 'white',
@@ -119,8 +118,10 @@ function HeroSection() {
                   textDecoration: 'none',
                   display: 'inline-flex',
                   alignItems: 'center',
+                  justifyContent: 'center',
                   border: '2px solid rgba(255,255,255,0.8)',
                   whiteSpace: 'nowrap',
+                  transition: 'background-color 0.2s',
                 }}
                 onMouseEnter={e => e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.15)'}
                 onMouseLeave={e => e.currentTarget.style.backgroundColor = 'transparent'}
@@ -130,38 +131,71 @@ function HeroSection() {
 
             </div>
 
-            {/* BADGE GOOGLE PLAY — flottant style maquette */}
-<div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', alignItems: 'center' }}>
-  
-    <a href="#"
-    style={{
-      display: 'inline-flex',
-      borderRadius: '12px',
-      overflow: 'hidden',
-      boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-    }}
-  >
-    <img
-      src={googlePlay2}
-      alt="Télécharger sur Google Play"
-      style={{
-        height: '40px',
-        objectFit: 'contain',
-      }}
-    />
-  </a>
-</div>
-</div>
+          </div>
 
-          {/* DROITE — téléphone */}
+          {/* DROITE — téléphone + badge flottant */}
           <div
             className="hero-phone"
             style={{
               flex: '0 0 48%',
               alignItems: 'flex-end',
               justifyContent: 'flex-end',
+              position: 'relative',
             }}
           >
+
+            {/* BADGE GOOGLE PLAY — flottant sur le téléphone */}
+            
+              <a href="#"
+              style={{
+                position: 'absolute',
+                top: '160px',
+                left: '450px',
+                display: 'inline-flex',
+                borderRadius: '12px',
+                overflow: 'hidden',
+                boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
+                zIndex: 10,
+              }}
+              onMouseEnter={e => e.currentTarget.style.opacity = '0.9'}
+              onMouseLeave={e => e.currentTarget.style.opacity = '1'}
+            >
+              <img
+                src={googlePlay2}
+                alt="Télécharger sur Google Play"
+                style={{
+                  height: '44px',
+                  objectFit: 'contain',
+                }}
+              />
+            </a>
+            <a href="#"
+              style={{
+                position: 'absolute',
+                top: '400px',
+                // width: '200px',
+                left: '50px',
+                display: 'inline-flex',
+                borderRadius: '12px',
+                overflow: 'hidden',
+                boxShadow: '0 4px 16px rgba(0,0,0,0.2)',
+                zIndex: 10,
+              }}
+              onMouseEnter={e => e.currentTarget.style.opacity = '0.9'}
+              onMouseLeave={e => e.currentTarget.style.opacity = '1'}
+            >
+              <img
+                src={googlePlay2}
+                alt="Télécharger sur Google Play"
+                style={{
+                  height: '44px',
+                  objectFit: 'contain',
+                }}
+              />
+            </a>
+
+
+            {/* IMAGE TÉLÉPHONE */}
             <img
               src={phone}
               alt="Application EasyMarket"
@@ -172,6 +206,7 @@ function HeroSection() {
                 filter: 'drop-shadow(0 20px 40px rgba(0,0,0,0.2))',
               }}
             />
+
           </div>
 
         </div>

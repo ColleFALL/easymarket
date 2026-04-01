@@ -113,10 +113,4 @@ src/
 - **CMS** — Intégration Strapi pour gérer les contenus dynamiquement
 
 
-##  Liens
-
-- **Démo en ligne** : [easymarket.vercel.app](https://easymarket-b68r.vercel.app/)
-- **GitHub** : [ColleFALL/easymarket](https://github.com/ColleFALL/easymarket)
-
-
 *Réalisé dans le cadre de l'épreuve technique EasyMarket — Avril 2026

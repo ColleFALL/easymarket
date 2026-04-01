@@ -243,7 +243,7 @@ function ClientsSection() {
             style={{
               fontFamily: "Inter, sans-serif",
               fontSize: "15px",
-              color: "#6B7280",
+              color: "#111113",
             }}
           >
             Des commerçants qui utilisent EasyMarket au quotidien

@@ -153,7 +153,7 @@ function FeaturesSection() {
               <p style={{
                 fontFamily: 'Inter, sans-serif',
                 fontSize: '15px',
-                color: '#6B7280',
+                color: '#111113',
                 lineHeight: '1.6',
               }}>
                 Tout ce qu'il vous faut pour gérer et développer votre commerce

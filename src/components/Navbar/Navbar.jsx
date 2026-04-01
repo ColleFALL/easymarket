@@ -134,7 +134,7 @@ function Navbar() {
 
           {/* BOUTON CTA — desktop uniquement */}
           
-           <a  href="#contact"
+           <a  href="#"
             className="nav-cta"
             style={{
               fontFamily: 'Inter, sans-serif',
@@ -222,7 +222,7 @@ function Navbar() {
               />
             ))}
             
-              <a href="#contact"
+              <a href="#"
               onClick={fermerMenu}
               style={{
                 background: 'linear-gradient(135deg, #F97316 0%, #FBBF24 100%)',

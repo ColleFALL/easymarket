@@ -158,7 +158,7 @@ function WhySection() {
               <p style={{
                 fontFamily: 'Inter, sans-serif',
                 fontSize: '16px',
-                color: '#6B7280',
+                color: '#111113',
                 lineHeight: '1.6',
                 margin: 0,
               }}>

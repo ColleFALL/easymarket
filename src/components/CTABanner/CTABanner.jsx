@@ -1,7 +1,7 @@
 import React from "react";
 import phone from "../../assets/images/phone3.png";
-import googlePlay from "../../assets/images/icone-google_play.png";
-import appStore from "../../assets/images/icone-app_store.png";
+import googlePlay from "../../assets/images/google_play1.jpg";
+import appStore from "../../assets/images/app_store.jpg";
 
 function CTABanner() {
   return (

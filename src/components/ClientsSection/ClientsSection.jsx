@@ -6,9 +6,9 @@ import shop4 from '../../assets/images/image-Kazamansa4.jpg'
 
 const BOUTIQUES = [
   { nom: 'Grandkabir',   description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop1 },
-  { nom: 'Yeksina Home', description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop2 },
-  { nom: 'Kazamansa',    description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop3 },
-  { nom: 'Kazamansa',    description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop4 },
+  { nom: 'Yeksina Home', description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop1 },
+  { nom: 'Kazamansa',    description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop1 },
+  { nom: 'Kazamansa',    description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop1 },
 ]
 
 // ============================================

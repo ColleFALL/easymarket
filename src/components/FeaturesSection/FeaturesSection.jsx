@@ -1,5 +1,5 @@
 import React from 'react'
-import phone from '../../assets/images/phone3.jpeg'
+import phone from '../../assets/images/phone3.png'
 
 const FEATURES = [
   { texte: 'Gestion des ventes et dépenses' },

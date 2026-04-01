@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
-import shop1 from '../../assets/images/image Kazamansa (1).jpeg'
-import shop2 from '../../assets/images/image Kazamansa (2).jpeg'
-import shop3 from '../../assets/images/image Kazamansa (3).jpeg'
-import shop4 from '../../assets/images/image Kazamansa (4).jpeg'
+import shop1 from '../../assets/images/image Kazamansa (1).jpg'
+import shop2 from '../../assets/images/image Kazamansa (2).jpg'
+import shop3 from '../../assets/images/image Kazamansa (3).jpg'
+import shop4 from '../../assets/images/image Kazamansa (4).jpg'
 
 const BOUTIQUES = [
   { nom: 'Grandkabir',   description: 'Une entreprise sénégalaise spécialisée dans la fourniture de solutions technologiques de pointe. Initialement reconnue pour nos services informatiques', lien: '#', image: shop1 },
@@ -81,9 +81,9 @@ function BoutiqueCard({ boutique }) {
 
         {/* TRAIT orange — entre titre et paragraphe */}
         <div style={{
-          width: '32px',
-          height: '3px',
-          backgroundColor: '#F97316',
+          width: 'auto',
+          height: '1px',
+          backgroundColor: '#f8b17e',
           borderRadius: '2px',
           flexShrink: 0,
         }}/>
